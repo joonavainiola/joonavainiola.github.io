@@ -330,7 +330,7 @@ header {
    }
 
    .header_kuva img {
-      height: 450px;
+      height: 500px;
    }
 
    .header_teksti {
@@ -369,5 +369,11 @@ header {
       text-decoration: none;
       margin-top: 8px;
       transition: 0.3s ease;
+   }
+}
+
+@media only screen and (max-width: 450px) {
+   .header_kuva img {
+      height: 400px;
    }
 }
