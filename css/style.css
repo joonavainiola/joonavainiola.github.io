@@ -377,3 +377,115 @@ header {
       height: 400px;
    }
 }
+
+@media only screen and (max-width: 850px) and (max-height: 500px) {
+   .header_grid {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+   }
+
+   .header_kuva {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+   }
+
+   .header_kuva img {
+      height: 90vh;
+   }
+
+   .header_teksti {
+      padding-bottom: 0;
+      padding-top: 30px;
+      width: 100%;
+      z-index: 1;
+   }
+
+   .header_teksti h1 {
+      font-size: 35px;
+   }
+
+   .lila, .musta, .titteli {
+      margin: 0 auto;
+   }
+
+   .titteli {
+      font-size: 22px;
+      padding-top: 4px;
+      text-align: center;
+   }
+
+   .header_teksti ul {
+      text-align: right;
+   }
+
+   .header_teksti ul li {
+      display: inline-block;
+      margin: 0 0 0 10px;
+      font-size: 25px;
+      text-align: right;
+   }
+
+   .header_teksti ul li a {
+      margin: 0;
+      text-align: right;
+   }
+
+   .header_viiva {
+      display: none;
+   }
+
+   .some li {
+      display: inline-block;
+   }
+
+   .some li a {
+      color: white;
+      font-size: 19px;
+      text-align: center;
+      background-color: #222222;
+      width: 18px;
+      margin: 0 0 0 10px;
+      padding: 12px;
+      border-radius: 50%;
+      text-decoration: none;
+      margin-top: 8px;
+      transition: 0.3s ease;
+   }
+}
+
+@media only screen and (max-width: 450px) and (max-height: 640px) {
+   .header_kuva img {
+      height: 60vh;
+   }
+
+   .header_teksti {
+      padding-top: 20px;
+   }
+
+   .header_teksti h1 {
+      font-size: 30px;
+   }
+
+   .header_teksti p {
+      font-size: 20px;
+   }
+
+   .header_teksti ul li {
+      margin: 0;
+   }
+
+   .header_teksti ul li a {
+      font-size: 22px;
+   }
+
+   .some li a {
+      font-size: 16px;
+      text-align: center;
+      background-color: #222222;
+      width: 15px;
+      padding: 12px;
+      margin: 3px 0;
+   }
+}
