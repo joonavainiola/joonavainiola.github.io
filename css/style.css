@@ -167,9 +167,32 @@ header {
    background-color: white;
 }
 
+.kuka_etsin {
+    background: linear-gradient(#e68be4, #eaaee8);
+    /* background-color: #e78de6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.kuka_etsin p {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+
+.kuka_etsin i {
+    margin-left: 2px;
+    color: #222222;
+}
+
 .kuka_teksti {
    max-width: 1000px;
    text-align: justify;
+   position: relative;
 }
 
 .kuka_teksti p {
@@ -212,7 +235,7 @@ header {
 .projektit_tyo {
    display: grid;
    grid-template-columns: 310px;
-   grid-template-rows: 200px 50px 150px 50px;
+   grid-template-rows: 200px 50px 170px 50px;
    background: white;
    margin: 15px;
    box-shadow: 0px 0px 2px #a8a8a8;
@@ -227,6 +250,10 @@ header {
    overflow: hidden;
 }
 
+.projektit_kuva a:hover {
+    cursor: zoom-in;
+}
+
 .projektit_kuva img {
    max-width: 100%;
 }
@@ -234,7 +261,7 @@ header {
 .projektit_teksti {
    text-align: left;
    font-size: 18px;
-   padding: 10px 20px;
+   padding: 0 20px;
 }
 
 .projektit_teksti h4 {
@@ -275,8 +302,16 @@ header {
    color: #d55dd1;
 }
 
+.sivut:hover {
+    border-bottom: 1px solid #d55dd1;
+}
+
 .github {
    color: #222222;
+}
+
+.github:hover {
+    border-bottom: 1px solid #222222;
 }
 
 /* YHTEYS */
