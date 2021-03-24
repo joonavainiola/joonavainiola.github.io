@@ -167,28 +167,6 @@ header {
    background-color: white;
 }
 
-.kuka_etsin {
-    background: linear-gradient(#e68be4, #eaaee8);
-    /* background-color: #e78de6; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.kuka_etsin p {
-    margin: 0;
-    color: white;
-    font-weight: 400;
-    text-align: center;
-    font-size: 18px;
-}
-
-.kuka_etsin i {
-    margin-left: 2px;
-    color: #222222;
-}
-
 .kuka_teksti {
    max-width: 1000px;
    text-align: justify;
